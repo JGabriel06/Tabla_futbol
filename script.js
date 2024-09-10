@@ -6,7 +6,10 @@ let equipos = [
     { nombre: "Junior", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
     { nombre: "Santa Fe", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
     { nombre: "Deportivo Cali", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
-    { nombre: "Once Caldas", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "La Equidad", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Deportivo Pereira", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Bucaramanga", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Envigado", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
 ];
 
 function actualizarTabla() {
