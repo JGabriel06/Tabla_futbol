@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga Colombiana de Fútbol - Tabla de Clasificación Interactiva</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://vhbpxoqxqvlkqxfqxgqx.supabase.co/storage/v1/object/public/assets/logo-liga-colombiana.png" alt="Logo Liga Colombiana" class="logo">
+            <h1>Liga Colombiana de Fútbol</h1>
+        </header>
+        <div class="colombia-flag">
+            <div class="yellow"></div>
+            <div class="blue"></div>
+            <div class="red"></div>
+        </div>
+        <main>
+            <div id="match-input">
+                <h2>Ingresar Resultado</h2>
+                <select id="local-team"></select>
+                <input type="number" id="local-score" min="0" placeholder="Goles Local">
+                <select id="visitor-team"></select>
+                <input type="number" id="visitor-score" min="0" placeholder="Goles Visitante">
+                <button id="submit-result">Agregar Resultado</button>
+            </div>
+            <table id="liga-table">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Equipo</th>
+                        <th>PJ</th>
+                        <th>PG</th>
+                        <th>PE</th>
+                        <th>PP</th>
+                        <th>GF</th>
+                        <th>GC</th>
+                        <th>DG</th>
+                        <th>Pts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los datos se llenarán con JavaScript -->
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <p>¡Vive la pasión del fútbol colombiano!</p>
+        </footer>
+    </div>
+    <div class="decorations">
+        <img src="https://vhbpxoqxqvlkqxfqxgqx.supabase.co/storage/v1/object/public/assets/cafe-colombiano.png" alt="Café colombiano" class="decoration coffee">
+        <img src="https://vhbpxoqxqvlkqxfqxgqx.supabase.co/storage/v1/object/public/assets/sombrero-vueltiao.png" alt="Sombrero vueltiao" class="decoration hat">
+        <img src="https://vhbpxoqxqvlkqxfqxgqx.supabase.co/storage/v1/object/public/assets/montanas-colombianas.png" alt="Montañas colombianas" class="decoration mountains">
+        <img src="https://vhbpxoqxqvlkqxfqxgqx.supabase.co/storage/v1/object/public/assets/balon-futbol.png" alt="Balón de fútbol" class="decoration football">
+        <img src="https://vhbpxoqxqvlkqxfqxgqx.supabase.co/storage/v1/object/public/assets/orquidea-colombiana.png" alt="Orquídea" class="decoration orchid">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
