@@ -10,6 +10,15 @@ let equipos = [
     { nombre: "Deportivo Pereira", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
     { nombre: "Bucaramanga", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
     { nombre: "Envigado", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Once Caldas", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Cortuluá", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Atlético Huila", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Jaguares", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Patriotas", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Alianza Petrolera", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Unión Magdalena", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Boyacá Chicó", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 },
+    { nombre: "Real Cartagena", pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 }
 ];
 
 function actualizarTabla() {
