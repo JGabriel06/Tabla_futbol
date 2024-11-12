@@ -34,9 +34,9 @@ function actualizarTabla() {
     const tbody = document.querySelector("#liga-table tbody");
     tbody.innerHTML = '';
     equipos.forEach((equipo, index) => {
-        const row = document.createElement("tr");
         const dg = equipo.gf - equipo.gc;
         const pts = equipo.pg * 3 + equipo.pe;
+        row = document.createElement("tr");
         row.innerHTML = `
             <td>${index + 1}</td>
             <td>${equipo.nombre}</td>
@@ -79,6 +79,12 @@ function agregarResultado() {
 
     if (isNaN(localScore) || isNaN(visitorScore)) {
         alert('Por favor ingrese resultados válidos');
+        return;
+    }
+
+    // Validar que los goles no sean negativos
+    if (localScore < 0 || visitorScore < 0) {
+        alert('Los goles no pueden ser negativos');
         return;
     }
 
