@@ -208,13 +208,14 @@ footer {
     50% { transform: rotate(5deg); }
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
     .container {
-        padding: 10px;
+        padding: 15px;
     }
 
     h1 {
-        font-size: 1.8em;
+        font-size: 2rem;
     }
 
     table {
@@ -222,7 +223,7 @@ footer {
     }
     
     th, td {
-        padding: 8px;
+        padding: 10px;
     }
 
     .logo {
@@ -238,7 +239,52 @@ footer {
     #match-input {
         flex-direction: column;
         align-items: stretch;
+        gap: 15px;
     }
+
+    #match-input select, #match-input input {
+        width: 100%;
+    }
+}
+
+/* Responsive styles for very small screens (mobile phones) */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    .decoration {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    #match-input {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    #match-input select, #match-input input {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
 
     #match-input select, #match-input input {
         width: 100%;
